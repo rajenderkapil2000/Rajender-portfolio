@@ -138,6 +138,7 @@ footer ul li a:hover{
 .date{
     font-style: italic;
     font-size: 0.9rem;
+    margin: -0.5rem 0 0 0;
 }
 .projects ol li a{
     display:block;
@@ -152,7 +153,11 @@ footer ul li a:hover{
     color:var(--secondary-color);
 }
 
+/*  */
+.blogs ol li h1 a{
+    color:black;
 
+}
 
 
  @media screen and (max-width:446px){
