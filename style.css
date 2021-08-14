@@ -8,6 +8,7 @@
 :root{
     --primary-color:#4561B9;
     --secondary-color:purple;
+    --grey-color:#D1D5DB;
 }
 nav{
     background-color: var(--primary-color);
@@ -35,7 +36,9 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
-
+nav ul li a:hover{
+font-weight: bolder;
+}
 
 /* home */
 .common{
@@ -55,7 +58,7 @@ nav ul li a{
 section{
     padding:1rem;
     margin:1rem;
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 section h1{
@@ -70,7 +73,6 @@ section p{
 section a{
  border:none;
  padding:5px 10px;
- 
  color:white;
  border-radius: 0.5rem;
  cursor: pointer;
@@ -79,10 +81,24 @@ section a{
 .btn-1{
     background-color: var(--primary-color);
 }
+.btn-1:hover{
+    color: var(--primary-color);
+    background-color: white;
+    border: 1px solid var(--primary-color);
+}
 .btn-2{
     color: var(--primary-color);
     background-color: white;
     border: 1px solid var(--primary-color);
+}
+.btn-2:hover{
+    background-color: var(--primary-color);
+    color:white;
+}
+.tech, .blogs{
+    background-color: var(--grey-color);
+}
+.projects{
     margin-bottom: 1rem;
 }
 
@@ -105,11 +121,14 @@ footer ul{
 footer ul li{
     display: inline;
 }
-footer a {
+footer ul li a{
     text-decoration: none;
     margin:0rem 1rem;
     color: white;
     font-weight: 400;
+}
+footer ul li a:hover{
+    font-weight: bold;
 }
 
 /* projects */
@@ -136,15 +155,8 @@ footer a {
 
 
 
-
-
-
-
-
-/*
-
  @media screen and (max-width:446px){
-    .home .home-img{
+    .common .home-img{
         max-width:250px;
     }
     nav ul li{
@@ -154,7 +166,7 @@ footer a {
 
 
 @media screen and (max-width:346px){
-    .home .home-img{
+    .common .home-img{
         max-width:200px;
     }
     nav ul li{
