@@ -164,11 +164,11 @@ footer ul li a:hover{
 .blogs ol li h1 a{
     color:black;
 }
-.blog-footer{
+/* .blog-footer{
     position:absolute;
     bottom:0px;
     width:100%;
-}
+} */
 
  @media screen and (max-width:446px){
     .common .home-img{
