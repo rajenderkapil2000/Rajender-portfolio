@@ -9,6 +9,7 @@
     --primary-color:#4561B9;
     --secondary-color:purple;
     --grey-color:#D1D5DB;
+    --light-blue:rgb(223, 225, 238);
 }
 nav{
     background-color: var(--primary-color);
@@ -30,14 +31,13 @@ nav ul li{
     display: inline;
     list-style: none;
     margin: 0 1.5rem;
-
 }
 nav ul li a{
     text-decoration: none;
     color: white;
 }
 nav ul li a:hover{
-font-weight: bolder;
+    font-weight: bolder;
 }
 
 /* home */
@@ -56,9 +56,9 @@ font-weight: bolder;
 }
    /* section  */
 section{
-    padding:1rem;
-    margin:1rem;
+    padding:1.5rem;
     max-width: 700px;
+    margin-left: 1rem;
     margin: auto;
 }
 section h1{
@@ -95,20 +95,15 @@ section a{
     background-color: var(--primary-color);
     color:white;
 }
-.tech, .blogs{
+.tech, .blog{
     background-color: var(--grey-color);
 }
-.projects{
-    margin-bottom: 1rem;
-}
-
-
 /*  */
 footer{
     text-align: center;
     background-color: var(--primary-color);
     border-top-right-radius: 1.5rem;
-       margin:1.5rem  0.3rem 0 0.3rem;
+    margin:1.5rem  0.3rem 0 0.3rem;
 }
 footer h3{
     padding-top:1rem;
@@ -132,8 +127,14 @@ footer ul li a:hover{
 }
 
 /* projects */
+.projects ol{
+    margin-left:2rem;
+    margin-right: 1rem;;
+}
 .projects ol li{
-    margin:3rem 0;
+    margin:2rem 0;
+    background-color: var(--light-blue);
+    padding:1rem;
 }
 .date{
     font-style: italic;
@@ -141,7 +142,7 @@ footer ul li a:hover{
     margin: -0.5rem 0 0 0;
 }
 .projects ol li a{
-    display:block;
+    display:inline-block;
     text-decoration: none;
     font-weight: bold;
 } 
@@ -152,13 +153,22 @@ footer ul li a:hover{
 .secondary{
     color:var(--secondary-color);
 }
-
-/*  */
-.blogs ol li h1 a{
-    color:black;
-
+.projects ol li h1{
+    padding-top: 0.5rem;
+}
+.my-section{
+    padding:0;
 }
 
+/* blogs */
+.blogs ol li h1 a{
+    color:black;
+}
+.blog-footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
 
  @media screen and (max-width:446px){
     .common .home-img{
