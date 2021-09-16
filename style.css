@@ -10,6 +10,7 @@
     --secondary-color:purple;
     --grey-color:#D1D5DB;
     --light-blue:rgb(223, 225, 238);
+    --white-color:white;
 }
 nav{
     background-color: var(--primary-color);
@@ -20,7 +21,7 @@ nav header{
     margin-left: 1rem;
     padding:2px;
     font-size: 1.5rem;
-    color: white;
+    color: var(--white-color);
 }
 nav ul{
     margin:1rem 1rem;
@@ -34,7 +35,7 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: var(--white-color);
 }
 nav ul li a:hover{
     font-weight: bolder;
@@ -73,7 +74,7 @@ section p{
 section a{
  border:none;
  padding:5px 10px;
- color:white;
+ color:var(--white-color);
  border-radius: 0.5rem;
  cursor: pointer;
  text-decoration: none;
@@ -83,17 +84,17 @@ section a{
 }
 .btn-1:hover{
     color: var(--primary-color);
-    background-color: white;
+    background-color: var(--white-color);
     border: 1px solid var(--primary-color);
 }
 .btn-2{
     color: var(--primary-color);
-    background-color: white;
+    background-color: var(--white-color);
     border: 1px solid var(--primary-color);
 }
 .btn-2:hover{
     background-color: var(--primary-color);
-    color:white;
+    color:var(--white-color);
 }
 .tech, .blog{
     background-color: var(--grey-color);
@@ -107,7 +108,7 @@ footer{
 }
 footer h3{
     padding-top:1rem;
-    color: white;
+    color: var(--white-color);
     font-weight: bold;
 }
 footer ul{
@@ -119,7 +120,7 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     margin:0rem 1rem;
-    color: white;
+    color: var(--white-color);
     font-weight: 400;
 }
 footer ul li a:hover{
@@ -164,12 +165,6 @@ footer ul li a:hover{
 .blogs ol li h1 a{
     color:black;
 }
-/* .blog-footer{
-    position:absolute;
-    bottom:0px;
-    width:100%;
-} */
-
  @media screen and (max-width:446px){
     .common .home-img{
         max-width:250px;
@@ -178,8 +173,6 @@ footer ul li a:hover{
         margin:0rem 0.5rem;
     }
 } 
-
-
 @media screen and (max-width:346px){
     .common .home-img{
         max-width:200px;
