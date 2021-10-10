@@ -165,6 +165,22 @@ footer ul li a:hover{
 .blogs ol li h1 a{
     color:black;
 }
+
+.blog-s{
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+.blog-s span{
+    font-size: 0.8rem;
+}
+.react h2{
+    margin:1rem 0;
+    padding:1rem 0;
+}
+.blogg{
+    background-color: var(--light-blue);
+}
  @media screen and (max-width:446px){
     .common .home-img{
         max-width:250px;
