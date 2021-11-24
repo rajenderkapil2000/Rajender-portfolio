@@ -181,6 +181,15 @@ footer ul li a:hover{
 .blogg{
     background-color: var(--light-blue);
 }
+
+.links{
+    color:black;
+    text-decoration: underline;
+    padding: 5px 0rem;
+}
+.common .blog-heading{
+    padding: 1rem 0 0 0;
+}
  @media screen and (max-width:446px){
     .common .home-img{
         max-width:250px;
